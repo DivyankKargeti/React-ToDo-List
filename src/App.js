@@ -17,7 +17,14 @@ function App() {
     }
   };
 
-  const deleteItem = (idx) => {};
+  const deleteItem = (id) => {
+    // to check
+    // console.log(idx);
+    const updatedItems = items.filter((item, ind) => {
+      return ind !== id;
+    });
+    setItems([...updatedItems]);
+  };
 
   const deleteAll = () => {
     setItems([]);
