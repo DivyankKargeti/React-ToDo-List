@@ -3,11 +3,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
-h1 {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-}
 
 .input-text {
   display: inline;
@@ -37,6 +32,18 @@ h1 {
   text-transform: uppercase;
   text-decoration: none;
   background: #7313cb;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.btn-rmv {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgb(87, 12, 12);
   margin: 20px;
   padding: 10px;
   border-radius: 0.4rem;
