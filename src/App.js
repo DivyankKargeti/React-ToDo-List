@@ -27,6 +27,9 @@ function App() {
   };
 
   const deleteAll = () => {
+    if(items.length === 0){
+      alert("There is nothing to delete...")
+    }
     setItems([]);
   };
 

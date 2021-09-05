@@ -25,6 +25,7 @@ body {
   border-radius: 0.4rem;
   display: inline-block;
   border: none;
+  cursor: pointer;
 }
 
 .add-btn {
@@ -37,6 +38,7 @@ body {
   border-radius: 0.4rem;
   display: inline-block;
   border: none;
+  cursor: pointer;
 }
 
 .btn-rmv {
@@ -49,6 +51,7 @@ body {
   border-radius: 0.4rem;
   display: inline-block;
   border: none;
+  cursor: pointer;
 }
 
 .app-title {
