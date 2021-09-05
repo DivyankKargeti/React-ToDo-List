@@ -27,15 +27,16 @@ function App() {
   };
 
   const deleteAll = () => {
-    if(items.length === 0){
-      alert("There is nothing to delete...")
+    if (items.length === 0) {
+      alert("There is nothing to delete...");
+    } else {
+      setItems([]);
     }
-    setItems([]);
   };
 
   return (
     <div>
-      <h1 className="app-title">TODO APP</h1>
+      <h1 className="app-title">ToDo APP</h1>
       <div className="container">
         Add an Item...
         <br />
